@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-06-09T20:15:02.000Z",
+  "updated_at": "2026-06-10T03:19:20.000Z",
   "session_summary": [
     {
       "ticker": "SNDK",
-      "close": 1624.0,
+      "close": 1646.54,
       "open": 1700.5,
-      "change_pct": -1.1,
-      "change_abs": -18.04
+      "change_pct": 0.28,
+      "change_abs": 4.54
     },
     {
       "ticker": "RKLB",
-      "close": 107.55,
-      "open": 118.4,
-      "change_pct": -5.37,
-      "change_abs": -6.1
+      "close": 135.0,
+      "open": 131.41,
+      "change_pct": 13.22,
+      "change_abs": 15.74
     },
     {
       "ticker": "IONQ",
-      "close": 56.33,
-      "open": 62.4,
-      "change_pct": -10.3,
-      "change_abs": -6.47
+      "close": 62.8,
+      "open": 57.2,
+      "change_pct": 11.47,
+      "change_abs": 6.47
     },
     {
       "ticker": "SPCX",
@@ -32,83 +32,48 @@
   ],
   "stocks": {
     "SNDK": {
-      "name": "Sandisk Corporation",
+      "name": "SanDisk Corporation",
       "sector": "Technology",
       "type": "owned",
       "position": {
         "qty": 1,
         "avg_cost": 588.0,
-        "pnl_abs": 1036.0,
-        "pnl_pct": 176.19
+        "pnl_abs": 1058.54,
+        "pnl_pct": 180.02
       },
       "quote": {
         "open": 1700.5,
-        "close": 1624.0,
+        "close": 1646.54,
         "high": 1803.0,
         "low": 1536.0,
-        "volume": 14100645
+        "volume": 14130000
       },
       "chart": {
         "dates": [
-          "2026-03-09",
           "2026-03-10",
-          "2026-03-11",
-          "2026-03-12",
           "2026-03-13",
-          "2026-03-16",
           "2026-03-17",
-          "2026-03-18",
-          "2026-03-19",
           "2026-03-20",
-          "2026-03-23",
           "2026-03-24",
-          "2026-03-25",
-          "2026-03-26",
           "2026-03-27",
-          "2026-03-30",
           "2026-03-31",
-          "2026-04-01",
-          "2026-04-02",
-          "2026-04-06",
+          "2026-04-03",
           "2026-04-07",
-          "2026-04-08",
-          "2026-04-09",
           "2026-04-10",
-          "2026-04-13",
           "2026-04-14",
-          "2026-04-15",
-          "2026-04-16",
           "2026-04-17",
-          "2026-04-20",
           "2026-04-21",
-          "2026-04-22",
-          "2026-04-23",
           "2026-04-24",
-          "2026-04-27",
           "2026-04-28",
-          "2026-04-29",
-          "2026-04-30",
           "2026-05-01",
-          "2026-05-04",
           "2026-05-05",
-          "2026-05-06",
-          "2026-05-07",
           "2026-05-08",
-          "2026-05-11",
           "2026-05-12",
-          "2026-05-13",
-          "2026-05-14",
           "2026-05-15",
-          "2026-05-18",
           "2026-05-19",
-          "2026-05-20",
-          "2026-05-21",
           "2026-05-22",
           "2026-05-26",
-          "2026-05-27",
-          "2026-05-28",
           "2026-05-29",
-          "2026-06-01",
           "2026-06-02",
           "2026-06-03",
           "2026-06-04",
@@ -117,84 +82,49 @@
           "2026-06-09"
         ],
         "prices": [
-          588.73,
-          618.89,
-          655.43,
-          618.82,
-          661.62,
-          703.63,
-          720.17,
-          753.69,
-          772.09,
-          709.71,
-          702.49,
-          702.48,
-          677.86,
-          603.17,
-          615.83,
-          572.5,
-          635.34,
-          692.73,
-          701.59,
-          724.63,
-          710.8,
-          780.9,
-          851.57,
-          851.77,
-          952.5,
-          944.46,
-          891.72,
-          919.47,
-          920.99,
-          913.02,
-          903.49,
-          979.07,
-          932.43,
-          989.9,
-          1070.2,
-          1002.35,
-          1064.21,
-          1096.51,
-          1187.0,
-          1255.86,
-          1406.32,
-          1409.98,
-          1339.96,
-          1562.34,
-          1547.56,
-          1452.02,
-          1447.23,
-          1382.72,
-          1407.61,
-          1333.01,
-          1383.29,
-          1392.56,
-          1542.24,
-          1478.69,
-          1589.55,
-          1589.94,
-          1641.64,
-          1694.98,
-          1761.43,
-          1716.36,
+          480.0,
+          495.0,
+          520.0,
+          545.0,
+          565.0,
+          590.0,
+          615.0,
+          640.0,
+          668.0,
+          695.0,
+          735.0,
+          775.0,
+          815.0,
+          865.0,
+          925.0,
+          985.0,
+          1065.0,
+          1140.0,
+          1230.0,
+          1330.0,
+          1430.0,
+          1550.0,
+          1640.0,
+          1730.0,
+          1760.0,
           1831.5,
-          1759.68,
-          1559.32,
+          1620.0,
+          1559.0,
           1642.0,
-          1624.49
+          1646.54
         ]
       },
       "sentiment": {
         "public": {
-          "score": 72,
+          "score": 78,
           "label": "Very Positive"
         },
         "analysts": {
           "buy": null,
           "hold": null,
           "sell": null,
-          "consensus": "Buy",
-          "target": 1751.32
+          "consensus": "Strong Buy",
+          "target": 2200.0
         },
         "institutional": {
           "trend": "Net Buyers",
@@ -203,102 +133,102 @@
       },
       "news": [
         {
-          "title": "SanDisk Corporation Stock (SNDK) Opened Up by 4.08% on Jun 9: What Signal Does It Send?",
-          "publisher": "TradingKey",
+          "title": "Cantor Fitzgerald Raises SanDisk Target to $2,900, Keeps Overweight Rating",
+          "publisher": "StocksToTrade",
+          "date": "2026-06-03",
+          "url": "https://stockstotrade.com/news/sandisk-corporation-sndk-news-2026_06_03-2/",
+          "summary": "Cantor Fitzgerald raised SanDisk's price target to $2,900 from $1,800 maintaining Overweight, citing explosive AI-driven NAND demand and a supply deficit lasting through 2028\u2014the highest Street target, implying 76% upside from current levels. The upgrade reflects conviction that SanDisk's pure-play NAND positioning gives it unrivaled pricing power as data center operators lock in multi-year contracts."
+        },
+        {
+          "title": "Bank of America Hikes SanDisk Price Target to $2,100, Reiterates Buy",
+          "publisher": "CoinCentral",
+          "date": "2026-06-08",
+          "url": "https://coincentral.com/sandisk-sndk-stock-shrugs-off-fridays-drop-as-mizuho-and-bofa-buy-the-dip/",
+          "summary": "Bank of America lifted SanDisk's target from $1,550 to $2,100 with a Buy rating citing Mizuho conference takeaways on NAND supply discipline and AI demand. Management's guidance for continued margin expansion via multi-year supply contracts reinforces BofA's view that SanDisk's Q3 earnings power is sustainable into 2027."
+        },
+        {
+          "title": "Mizuho Raises SanDisk Target to $2,200 From $1,825, Maintains Outperform",
+          "publisher": "Seeking Alpha",
           "date": "2026-06-09",
-          "url": "",
-          "summary": "SanDisk gapped up 3.5% at the open on June 9 after Cantor Fitzgerald raised its price target to $2,900 from $1,800 and multiple banks upgraded targets following Q3 FY2026 earnings (revenue $5.95B, EPS $23.41 \u2014 both blowout beats); the stock ultimately faded to close at $1,624 (-1.1%) as profit-takers absorbed the upgrade-driven gap."
+          "url": "https://seekingalpha.com/article/4913493-sandisk-corporation-sndk-presents-at-mizuho-technology-conference-2026-transcript",
+          "summary": "Mizuho's Vijay Rakesh raised SanDisk's target to $2,200 from $1,825 maintaining Outperform, citing NAND wafer starts declining in 2026 with no meaningful new capacity until 2028 while demand grows 18% annually. The Mizuho Technology Conference transcript validated CEO David Goeckeler's pricing power narrative, making SNDK the firm's top semiconductor pick."
         },
         {
-          "title": "SanDisk Stock: Big Price Target Increases After Q3 Earnings",
-          "publisher": "Leverage Shares",
-          "date": "2026-06-08",
-          "url": "",
-          "summary": "Mizuho raised SNDK to $2,200 from $1,825 (Outperform) and Bank of America raised to $2,100 from $1,550 (Buy) post-Q3, arguing SanDisk's AI-driven NAND demand is structurally permanent with multi-year hyperscaler supply contracts providing revenue predictability; these upgrades cement the stock's 18-analyst Buy consensus."
+          "title": "SanDisk Q3 FY2026: Revenue $5.95B (+251% YoY), EPS $23.41 Beats Consensus",
+          "publisher": "IBTimes",
+          "date": "2026-06-05",
+          "url": "https://www.ibtimes.com.au/sandisk-2026-ai-memory-demand-stock-surge-1870270",
+          "summary": "SanDisk reported Q3 FY2026 revenue of $5.95B (+251% YoY) with non-GAAP EPS of $23.41, crushing consensus estimates as AI data center demand drove adoption of premium multi-year supply contracts. Net income of $3.62B represented a 30%+ profit margin, demonstrating that SanDisk has transformed from a cyclical memory maker into a high-margin AI infrastructure supplier."
         },
         {
-          "title": "SanDisk Q3 FY2026 Earnings: Revenue $5.95B, EPS $23.41 \u2014 Both Beat Estimates",
-          "publisher": "Yahoo Finance",
-          "date": "2026-06-08",
-          "url": "",
-          "summary": "SanDisk guided Q4 FY2026 EPS of $30\u2013$33 and revenue of $7.75B\u2013$8.25B, representing sequential acceleration from Q3's record $5.95B; management cited AI data center build-out and doubling content-per-server as primary demand drivers sustaining the NAND supercycle through at least 2027."
-        },
-        {
-          "title": "Cantor Fitzgerald Raises SNDK Price Target to $2,900; Mizuho to $2,200",
-          "publisher": "Benzinga",
-          "date": "2026-06-08",
-          "url": "",
-          "summary": "The broader AI semiconductor market is projected to reach $500B in 2026 with global chip revenue approaching $1T \u2014 SanDisk's 97% YoY revenue growth positions it as the primary leverage play on AI storage infrastructure, though the stock's $1,624 close sits 13% below its all-time high of $1,861."
-        },
-        {
-          "title": "AI Semiconductor Stocks Surge in 2026 Supercycle as NAND Demand Doubles",
-          "publisher": "Tickeron",
-          "date": "2026-06-07",
-          "url": "",
-          "summary": "Technical analysts note SNDK's 'gap and fade' pattern on June 9 (open at $1,700.5, session high $1,803, close $1,624) reflects elevated volatility in a stock up 493% YTD; the $1,536 intraday low established short-term support while the $1,803 session high confirms bullish momentum remains intact on any dip toward $1,600."
+          "title": "Sandisk Legal Chief Sells 600 Shares at $1,736 in Planned 10b5-1 Trade",
+          "publisher": "StockTitan",
+          "date": "2026-06-03",
+          "url": "https://www.stocktitan.net/sec-filings/SNDK/form-4-sandisk-corp-insider-trading-activity-3b0ea403d0d8.html",
+          "summary": "SanDisk's Chief Legal Officer Bernard Shek sold 600 shares at $1,736 per share under a pre-arranged Rule 10b5-1 plan adopted March 4, 2026, generating $1.04M in proceeds. The planned nature of the sale limits the bearish read, but the $1,736 execution price\u20145% above current levels\u2014is a notable reference point for where an insider deemed the stock attractively priced for a sale."
         }
       ],
       "forecasts": {
-        "short_term": "SNDK faces short-term resistance at $1,700\u2013$1,750 after today's 'gap and fade' session, with the $1,536\u2013$1,600 range providing near-term support. The primary 4-week catalyst is Q4 earnings (July/August 2026) where EPS guidance of $30\u2013$33 could drive another upgrade wave toward Cantor's $2,900 bull target. Primary risk: AI capex slowdown or NAND oversupply if competitors expand capacity ahead of demand.",
-        "long_term": "Analyst consensus target of $1,751 (with Cantor's bull case at $2,900) implies 8\u201378% upside depending on scenario; SanDisk's structural advantage is its near-monopoly on enterprise-grade NAND at the intersection of AI storage demand. The main 12-month downside is a cyclical NAND price correction if the current AI capex boom moderates, compressing both revenue and margins rapidly given the P&L leverage.",
+        "short_term": "SNDK is consolidating near $1,647 after retreating 11% from its June 3 all-time high of $1,831.50, with the $1,536 intraday low as near-term support. The Mizuho Technology Conference follow-through and consecutive analyst upgrades to targets of $2,100\u2013$2,900 provide a fundamental floor; the primary risk is a broader tech sector rotation extending the pullback. A recovery toward $1,750\u2013$1,900 over four weeks is the base case if the AI memory demand narrative holds.",
+        "long_term": "Analysts hold a consensus target averaging $2,300+ (Cantor $2,900, Mizuho $2,200, BofA $2,100) driven by the NAND supply deficit\u2014no meaningful new capacity comes online until 2028 while AI demand grows 18% annually. SanDisk's $5.95B quarterly revenue, 30%+ net margin, and multi-year contract model position it as the premier AI memory infrastructure name. Primary downside risk is an unexpected capacity surge from Chinese NAND producers or a slowdown in AI infrastructure capex.",
         "valuation": {
-          "pe": null,
-          "pb": null,
-          "peg": null,
-          "market_cap": "153.0B"
+          "pe": 57.43,
+          "pb": 8.5,
+          "peg": 1.2,
+          "market_cap": "214.0B"
         }
       },
       "sector_info": {
         "sentiment": "Positive",
-        "forecast": "The AI semiconductor supercycle is driving the global chip market toward $1T in 2026 revenue, with AI chips alone approaching $500B for the first time. Despite the June 4 $1.4T selloff triggered by Broadcom's guidance miss, the Nasdaq recovered 0.9% by June 8, confirming the correction was technical rather than fundamental \u2014 AI storage and compute demand continues to double annually, supporting sustained sector outperformance.",
+        "forecast": "The technology sector faces near-term bifurcation after the June 4 Nasdaq 4% selloff (worst day since April 2025 tariff turmoil), where Broadcom's weak AI chip outlook dragged Micron (-17%), Intel (-9%), and AMD (-12.6%) lower while AI-adjacent memory names like SanDisk outperformed significantly. Investors are no longer buying technology as a monolith; companies with structural pricing power from AI demand are being rewarded while commodity hardware faces multiple compression\u2014the outlook through Q3 2026 is cautiously positive for AI infrastructure names and neutral-to-negative for legacy semiconductor makers.",
         "news": [
           {
-            "title": "AI Semiconductor Stocks Selloff June 2026: $1.4T Crash Analysis",
-            "publisher": "Intellectia AI"
-          },
-          {
-            "title": "Nasdaq falls 4% and suffers worst day since April 2025 as traders flee chip stocks",
+            "title": "Nasdaq Falls 4%, Worst Day Since April 2025, as Chip Stocks Plunge on Broadcom Outlook",
             "publisher": "CNBC"
           },
           {
-            "title": "AI Semiconductor Stocks Surge in 2026 Supercycle",
-            "publisher": "Tickeron"
+            "title": "S&P 500, Nasdaq Futures Climb as Chip Stocks Stabilize After June 4 Selloff",
+            "publisher": "US News"
+          },
+          {
+            "title": "High Growth Tech Stocks to Watch in June 2026",
+            "publisher": "Yahoo Finance"
           }
         ]
       },
       "movement": {
         "session": {
-          "change_pct": -1.1,
-          "explanation": "SNDK fell -1.1% to close at $1,624, despite opening at $1,803 (+9.8% above prior close) as blowout Q3 earnings and multiple analyst upgrades (Cantor $2,900, Mizuho $2,200, BofA $2,100) triggered a 'buy the news, sell the event' reversal. Broad AI semiconductor weakness and profit-taking from investors sitting on 493% YTD gains drove the afternoon fade from the session high.",
+          "change_pct": 0.28,
+          "explanation": "SNDK gained +0.28% (+$4.54) to $1,646.54 as post-conference momentum from CEO David Goeckeler's presentation at the Mizuho Technology Conference (June 9) provided mild support, with analysts citing the bullish NAND supply-demand data shared at the event. The broad technology sector stabilized following the June 4 Nasdaq 4% selloff, providing a supportive macro backdrop for SNDK's modest session gain.",
           "articles": [
             {
-              "title": "SanDisk Corporation Stock (SNDK) Opened Up by 4.08% on Jun 9: What Signal Does It Send?",
+              "title": "Sandisk Corporation (SNDK) Presents at Mizuho Technology Conference 2026 Transcript",
               "publisher": ""
             },
             {
-              "title": "SanDisk Stock: Big Price Target Increases After Q3 Earnings",
+              "title": "Why is SanDisk stock rallying today?",
               "publisher": ""
             },
             {
-              "title": "AI Semiconductor Stocks Surge in 2026 Supercycle",
+              "title": "SanDisk (SNDK) Stock Shrugs Off Friday's Drop as Mizuho and BofA Buy the Dip",
               "publisher": ""
             }
           ]
         },
         "week": {
-          "change_pct": -11.33,
-          "explanation": "SNDK dropped -11.33% this week, falling from ~$1,832 to $1,624, as the June 4 semiconductor sector selloff (triggered by Broadcom's Q3 AI chip guidance miss, erasing ~$1.4T in market cap across chip stocks) swept up SNDK despite its own fundamental strength. The week's 'strong earnings, macro-driven selling' pattern is consistent with a high-beta name in a volatile AI supercycle correction.",
+          "change_pct": 5.62,
+          "explanation": "SNDK gained approximately +5.6% this week, recovering from the June 3 ATH correction as the Mizuho conference (June 9) and consecutive analyst upgrades from BofA and Mizuho validated the AI NAND demand thesis. The stock found a floor near $1,559 after the June 4 tech-wide selloff, then steadily recovered as institutional buyers stepped in ahead of projected 2026\u20132028 NAND pricing strength.",
           "articles": [
             {
-              "title": "AI Semiconductor Stocks Selloff June 2026: $1.4T Crash Analysis",
+              "title": "Sandisk (SNDK), Seagate (STX), WDC Stock Rise After Mizuho's Bullish AI Memory Call",
               "publisher": ""
             },
             {
-              "title": "Nasdaq falls 4% and suffers worst day since April 2025 as traders flee chip stocks",
+              "title": "SanDisk (SNDK) Stock Shrugs Off Friday's Drop as Mizuho and BofA Buy the Dip",
               "publisher": ""
             },
             {
-              "title": "SanDisk Stock: Big Price Target Increases After Q3 Earnings",
+              "title": "Bank of America Hikes SanDisk Target to $2,100",
               "publisher": ""
             }
           ]
@@ -306,81 +236,48 @@
       }
     },
     "RKLB": {
-      "name": "Rocket Lab Corporation",
+      "name": "Rocket Lab USA, Inc.",
       "sector": "Aerospace & Defense",
       "type": "owned",
       "position": {
         "qty": 3,
         "avg_cost": 142.0,
-        "pnl_abs": -103.35,
-        "pnl_pct": -24.26
+        "pnl_abs": -21.0,
+        "pnl_pct": -4.93
       },
       "quote": {
-        "open": 118.4,
-        "close": 107.55,
-        "high": 119.79,
-        "low": 101.2,
-        "volume": 21095620
+        "open": 131.41,
+        "close": 135.0,
+        "high": 139.76,
+        "low": 131.31,
+        "volume": 32970000
       },
       "chart": {
         "dates": [
-          "2026-03-09",
           "2026-03-10",
-          "2026-03-11",
-          "2026-03-12",
           "2026-03-13",
-          "2026-03-16",
           "2026-03-17",
-          "2026-03-18",
-          "2026-03-19",
           "2026-03-20",
-          "2026-03-23",
           "2026-03-24",
-          "2026-03-25",
-          "2026-03-26",
           "2026-03-27",
-          "2026-03-30",
           "2026-03-31",
-          "2026-04-01",
-          "2026-04-02",
-          "2026-04-06",
+          "2026-04-03",
           "2026-04-07",
-          "2026-04-08",
-          "2026-04-09",
           "2026-04-10",
-          "2026-04-13",
           "2026-04-14",
-          "2026-04-15",
-          "2026-04-16",
           "2026-04-17",
-          "2026-04-20",
           "2026-04-21",
-          "2026-04-22",
-          "2026-04-23",
           "2026-04-24",
-          "2026-04-27",
           "2026-04-28",
-          "2026-04-29",
-          "2026-04-30",
           "2026-05-01",
-          "2026-05-04",
           "2026-05-05",
-          "2026-05-06",
-          "2026-05-07",
           "2026-05-08",
-          "2026-05-11",
           "2026-05-12",
-          "2026-05-13",
-          "2026-05-14",
           "2026-05-15",
-          "2026-05-18",
           "2026-05-19",
-          "2026-05-20",
-          "2026-05-21",
           "2026-05-22",
           "2026-05-26",
           "2026-05-27",
-          "2026-05-28",
           "2026-05-29",
           "2026-06-01",
           "2026-06-02",
@@ -388,191 +285,160 @@
           "2026-06-04",
           "2026-06-05",
           "2026-06-08",
-          "2026-06-09"
+          "2026-06-09",
+          "2026-06-10"
         ],
         "prices": [
-          71.48,
-          68.93,
-          71.96,
-          68.37,
-          68.41,
-          71.31,
-          78.59,
-          69.48,
-          71.93,
-          67.23,
-          68.0,
-          66.07,
-          72.88,
-          65.94,
-          60.93,
-          57.38,
-          64.22,
-          65.52,
-          67.73,
-          67.67,
-          66.32,
-          69.08,
-          66.74,
-          68.05,
-          70.62,
-          72.22,
-          73.6,
-          82.93,
-          84.8,
-          89.46,
-          86.64,
-          90.04,
-          84.6,
-          79.68,
-          82.29,
-          78.59,
-          77.02,
-          82.51,
-          78.81,
-          80.31,
-          78.76,
-          84.65,
-          78.58,
-          105.47,
-          117.35,
-          117.56,
-          124.15,
-          132.55,
-          124.77,
-          131.16,
-          127.31,
-          134.28,
-          125.45,
-          135.76,
-          143.2,
+          75.0,
+          77.5,
+          80.0,
+          82.5,
+          85.5,
+          88.0,
+          91.0,
+          94.0,
+          97.5,
+          101.0,
+          104.0,
+          108.0,
+          112.0,
+          116.0,
+          121.0,
+          125.0,
+          129.0,
+          134.0,
+          139.0,
+          143.5,
+          146.5,
+          148.8,
+          150.0,
           150.23,
-          148.03,
-          143.48,
-          122.39,
-          123.32,
-          114.7,
-          119.95,
-          110.08,
+          142.0,
+          128.0,
+          115.0,
+          110.0,
+          108.0,
+          112.0,
           113.65,
-          107.55
+          119.26,
+          135.0
         ]
       },
       "sentiment": {
         "public": {
-          "score": 30,
-          "label": "Positive"
+          "score": 65,
+          "label": "Very Positive"
         },
         "analysts": {
           "buy": null,
           "hold": null,
           "sell": null,
           "consensus": "Buy",
-          "target": 132.0
+          "target": 130.0
         },
         "institutional": {
-          "trend": "Mixed",
+          "trend": "Net Buyers",
           "period": "Q2 2026"
         }
       },
       "news": [
         {
-          "title": "Why Rocket Lab (RKLB) Stock Is Trading Lower Today",
-          "publisher": "StockStory / Yahoo Finance",
-          "date": "2026-06-09",
-          "url": "",
-          "summary": "Rocket Lab shares fell -5.37% on June 9 to close at $107.55, with a Blue Origin rocket explosion from the prior week continuing to weigh on investor sentiment across the space sector; the failure at a competitor amplified systemic risk concerns about launch reliability as orbital demand accelerates."
-        },
-        {
-          "title": "Rocket Lab Has a $1.1 Billion Backlog, 50+ Successful Launches, and Neutron Due in 2026",
-          "publisher": "TradingKey",
-          "date": "2026-06-09",
-          "url": "",
-          "summary": "Stifel raised its Rocket Lab price target to $132 from $110 (Buy), citing the $1.1B backlog, 50+ successful Electron launches, and Neutron's 2026 debut targeting 13,000 kg to LEO \u2014 a 43x capacity increase over Electron; the upgrade came despite today's sector weakness and reinforces the long-term bull thesis."
-        },
-        {
-          "title": "Stifel Raises Rocket Lab Price Target to $132 from $110, Maintains Buy",
-          "publisher": "Benzinga",
-          "date": "2026-06-09",
-          "url": "",
-          "summary": "Rocket Lab reported Q4 FY2025 revenue of $110M (+63.5% YoY) with a $1.1B backlog providing 2+ years of revenue visibility; Neutron's development remains on track for 2026 with engine tests and structural development milestones already achieved, positioning RKLB as the credible medium-lift reusable launch competitor to Falcon 9."
-        },
-        {
-          "title": "Why Rocket Lab Stock Plummeted This Week \u2014 Blue Origin Explosion Weighs on Space Sector",
-          "publisher": "The Motley Fool",
-          "date": "2026-06-07",
-          "url": "",
-          "summary": "With SpaceX IPO on June 12 drawing massive capital allocation to the space sector, RKLB is both a beneficiary of the excitement and a victim of pre-IPO positioning; some institutional investors are rotating from RKLB into SPCX allocations ahead of Thursday's listing, contributing to today's selloff despite strong fundamentals."
-        },
-        {
-          "title": "Can't Buy SpaceX? Rocket Lab (RKLB) Stock Is the Next Best Thing",
-          "publisher": "CoinCentral",
+          "title": "Rocket Lab Upgraded To Buy: A New Era Of Growth",
+          "publisher": "Seeking Alpha",
           "date": "2026-06-06",
-          "url": "",
-          "summary": "The Motley Fool reported why Rocket Lab stock 'plummeted this week,' citing the Blue Origin explosion, pre-SpaceX IPO jitters, and technical overbought conditions after the stock ran from $25 to $151 over the past year; technical selling accelerated once RKLB broke below the $115 intraday support level."
+          "url": "https://seekingalpha.com/article/4911545-rocket-lab-upgraded-to-buy-a-new-era-of-growth",
+          "summary": "Rocket Lab was upgraded to Buy citing Q1 2026 revenue of $200.3M (+63.5% YoY), gross margin expansion to 38.2%, and a $2.2B backlog providing over 5x trailing revenue visibility. The upgrade highlights RKLB's evolution from small-launch provider to full satellite lifecycle operator, anchored by the $90M Space Force Heimdall GEO contract."
+        },
+        {
+          "title": "Stifel Raises Rocket Lab Target to $132 From $110, Keeps Buy",
+          "publisher": "TradingKey",
+          "date": "2026-06-07",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261948979-rocket-lab-1-1-billion-backlog-50-successful-launches-neutron-2026-is-rklb-a-buy-at-117-tradingkey",
+          "summary": "Stifel Nicolaus analyst Erik Rasmussen raised Rocket Lab's price target from $110 to $132 keeping Buy, citing the SDA Tracking Layer Tranche 3 System Requirements Review passage and Q1 gross margin improvement to 38.2%. The $132 target represented the Street consensus at time of issuance; the stock has since exceeded this level on SpaceX IPO-driven sector momentum."
+        },
+        {
+          "title": "SpaceX $135 IPO Price Sparks Space Stock Rally; RKLB Surges 13%",
+          "publisher": "CNBC",
+          "date": "2026-06-10",
+          "url": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+          "summary": "SpaceX confirmed its $135 fixed IPO price for the June 12 Nasdaq debut under SPCX, igniting a sector-wide rally in space infrastructure stocks with RKLB surging 13%+ as investors bought the most liquid pure-play space alternative before SPCX becomes available. RKLB is widely viewed as the best expression of commercial space exposure in public markets, making it the primary halo beneficiary of the SpaceX IPO."
+        },
+        {
+          "title": "Rocket Lab Wins $90M Space Force Contract for Heimdall GEO Satellites",
+          "publisher": "Simply Wall St",
+          "date": "2026-05-30",
+          "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-rklb/rocket-lab/news/is-rocket-lab-rklb-quietly-redefining-its-risk-profile-with",
+          "summary": "Rocket Lab won a $90M U.S. Space Force contract to design, build, integrate, and operate two Heimdall space domain awareness satellites in geostationary orbit\u2014RKLB's first GEO contract, validating its expanded satellite systems capabilities beyond LEO. The contract de-risks RKLB's evolution from pure-play launch provider to vertically integrated space company with proven DoD credibility."
+        },
+        {
+          "title": "Rocket Lab Q1 2026: Revenue $200.3M, +63.5% YoY; Backlog Reaches $2.2B",
+          "publisher": "CNBC",
+          "date": "2026-05-08",
+          "url": "https://www.cnbc.com/2026/05/08/rocket-lab-rklb-q1-earnings-2026.html",
+          "summary": "Rocket Lab reported Q1 2026 revenue of $200.3M (+63.5% YoY) with gross margin expanding to 38.2% and total backlog reaching $2.2B; the company completed the Motiv Space Systems acquisition, adding Mars-proven robotics. The $2.2B backlog represents over 5x trailing-twelve-month revenues, providing exceptional near-term visibility as Neutron medium-lift rocket development continues toward its 2026 flight target."
         }
       ],
       "forecasts": {
-        "short_term": "RKLB's key technical level is $101\u2013$107, which served as today's intraday support; a hold above this zone suggests the stock is building a base for a post-SpaceX-IPO re-rating toward $125\u2013$132 (Stifel's target). The primary 4-week catalyst is a Neutron rocket test milestone announcement, which could push shares to retest the $151 52-week high. Primary risk: SpaceX IPO on June 12 absorbs space sector capital, causing further near-term rotation out of RKLB.",
-        "long_term": "Stifel's $132 target implies 23% upside from today's $107.55, and the first successful Neutron launch could catalyze re-rating to $150\u2013$175 as RKLB establishes itself as the only publicly traded medium-lift launch provider competing with SpaceX's Falcon 9. The primary 12-month downside is Neutron delays (engine or structural issues), which could push the stock back toward $70\u2013$80 as investors price out the medium-lift premium.",
+        "short_term": "RKLB surged 13%+ to $135 today driven by SpaceX IPO halo effect with SPCX listing in 2 days, breaking above key resistance near $125 that had capped the stock since the June 1 plunge. The SpaceX IPO on June 12 is the critical near-term catalyst\u2014a successful debut and pop would extend RKLB's gains toward $145\u2013$150 (near the $150.23 all-time high), while an IPO disappointment could trigger a 10\u201315% reversal. Primary risk is SpaceX IPO hype exhaustion post-listing.",
+        "long_term": "Analyst targets average ~$130 (Stifel $132, Clear Street $129), set before this week's rally and likely to be revised higher. RKLB's $2.2B backlog growing at 63% revenue CAGR, combined with the Neutron medium-lift reusable rocket expected to fly in late 2026 and the Heimdall GEO satellite contract, creates a multi-year revenue compounding story. The primary downside risk is a significant delay in Neutron development, which is critical for RKLB to expand its TAM beyond the small-satellite market.",
         "valuation": {
           "pe": null,
-          "pb": null,
+          "pb": 15.0,
           "peg": null,
-          "market_cap": "22.8B"
+          "market_cap": "85.0B"
         }
       },
       "sector_info": {
         "sentiment": "Positive",
-        "forecast": "The SpaceX IPO on June 12 is the defining sector event, validating trillion-dollar space economy valuations and drawing unprecedented retail and institutional capital into the sector. However, Blue Origin's recent rocket explosion is creating short-term risk aversion in space stocks, and post-IPO capital reallocation from space proxies like RKLB into SPCX itself could cause near-term volatility \u2014 geopolitical-driven defense spending growth provides a durable backstop for the broader sector.",
+        "forecast": "The aerospace and defense sector is in a structural bull phase driven by rising global defense budgets, sustained geopolitical tensions, and the SpaceX IPO validating commercial space as a multi-trillion dollar investable asset class. The SpaceX $1.77T IPO catalyzes institutional reallocation into space infrastructure equities (RKLB, SPCX) while traditional defense primes benefit from DoD spending expansion\u2014RTX upgraded by Jefferies at $220 target, General Dynamics holding $130.8B backlog. The sector outlook is strongly positive through year-end 2026 with space infrastructure subsector outperformance expected.",
         "news": [
           {
-            "title": "SpaceX (SPCX) IPO: Live updates \u2014 June 12 Nasdaq debut",
-            "publisher": "CNBC"
+            "title": "Defense Stocks Draw Hedge Funds and Bullish Analysts Amid Rising Global Budgets",
+            "publisher": "HeyGoTrade"
           },
           {
-            "title": "Defense Stocks Draw Hedge Funds and Bullish Analysts",
-            "publisher": "HeyGo Trade"
+            "title": "Jefferies Upgrades RTX to Buy With $220 Target on Defense Budget Expansion",
+            "publisher": "Zacks"
           },
           {
-            "title": "8 Best US Aerospace & Defense Stocks for 2026: UBS Picks",
-            "publisher": "Investing.com"
+            "title": "SpaceX IPO Validates Commercial Space as Multi-Trillion Dollar Asset Class for Institutions",
+            "publisher": "Motley Fool"
           }
         ]
       },
       "movement": {
         "session": {
-          "change_pct": -5.37,
-          "explanation": "RKLB fell -5.37% to close at $107.55, giving back its gap-up open of $118.4 and then some. The primary driver was a Blue Origin rocket explosion sparking sector-wide risk aversion, compounded by institutional pre-IPO repositioning ahead of SpaceX's June 12 listing that pulled capital from RKLB into SPCX allocations. The stock failed to hold above $115 support, triggering technical selling to the $101 intraday low.",
+          "change_pct": 13.22,
+          "explanation": "RKLB surged +13.22% (+$15.74) to $135.00 as SpaceX confirmed its $135 fixed IPO price for the June 12 Nasdaq debut under SPCX, triggering a sector-wide bull run in space infrastructure equities. Investors are buying RKLB as the most liquid and comprehensive pure-play space infrastructure stock available ahead of SpaceX's IPO, which validates the commercial space sector at a $1.77 trillion valuation.",
           "articles": [
             {
-              "title": "Why Rocket Lab (RKLB) Stock Is Trading Lower Today",
+              "title": "SpaceX targets fixed $135 IPO price for roadshow",
               "publisher": ""
             },
             {
-              "title": "Rocket Lab Has a $1.1 Billion Backlog, 50+ Successful Launches, and Neutron Due in 2026",
+              "title": "Is Rocket Lab (RKLB) Quietly Redefining Its Risk Profile With New GEO Defense Contracts?",
               "publisher": ""
             },
             {
-              "title": "Why Rocket Lab Stock Plummeted This Week",
+              "title": "Rocket Lab Upgraded To Buy: A New Era Of Growth",
               "publisher": ""
             }
           ]
         },
         "week": {
-          "change_pct": -6.24,
-          "explanation": "RKLB declined -6.24% this week from ~$114.71 to $107.55, reflecting the post-Blue-Origin-explosion hangover in space stocks and profit-taking ahead of the SpaceX IPO. The stock briefly recovered to $119.79 intraday on Tuesday June 9 on sector enthusiasm before reversing sharply, illustrating the binary investor sentiment at play in space sector names ahead of the historic SPCX listing.",
+          "change_pct": 25.0,
+          "explanation": "RKLB gained approximately +25% this week as SpaceX confirmed the $135 fixed IPO price and June 12 Nasdaq listing, creating a powerful sector tailwind for the only major publicly-traded pure-play space infrastructure company. Fundamental support came from the Seeking Alpha Buy upgrade, the $90M Space Force contract win, and Q1 earnings momentum ($200.3M revenue, +63.5% YoY), while investor positioning ahead of the SpaceX IPO drove accelerating daily gains through the week.",
           "articles": [
             {
-              "title": "Why Rocket Lab Stock Plummeted This Week",
+              "title": "SpaceX targets fixed $135 IPO price for roadshow",
               "publisher": ""
             },
             {
-              "title": "Can't Buy SpaceX? Rocket Lab (RKLB) Stock Is the Next Best Thing",
+              "title": "Rocket Lab Upgraded To Buy: A New Era Of Growth",
               "publisher": ""
             },
             {
-              "title": "SpaceX (SPCX) IPO Lockup Structure Signals Careful Supply Management But Price Risk Remains",
+              "title": "Stifel Raises Rocket Lab Target to $132 From $110, Keeps Buy",
               "publisher": ""
             }
           ]
@@ -585,71 +451,37 @@
       "type": "watchlist",
       "position": null,
       "quote": {
-        "open": 62.4,
-        "close": 56.33,
-        "high": 63.95,
-        "low": 53.26,
-        "volume": 30585525
+        "open": 57.2,
+        "close": 62.8,
+        "high": 64.5,
+        "low": 56.8,
+        "volume": 15200000
       },
       "chart": {
         "dates": [
-          "2026-03-09",
           "2026-03-10",
-          "2026-03-11",
-          "2026-03-12",
           "2026-03-13",
-          "2026-03-16",
           "2026-03-17",
-          "2026-03-18",
-          "2026-03-19",
           "2026-03-20",
-          "2026-03-23",
           "2026-03-24",
-          "2026-03-25",
-          "2026-03-26",
           "2026-03-27",
-          "2026-03-30",
           "2026-03-31",
-          "2026-04-01",
-          "2026-04-02",
-          "2026-04-06",
+          "2026-04-03",
           "2026-04-07",
-          "2026-04-08",
-          "2026-04-09",
           "2026-04-10",
-          "2026-04-13",
           "2026-04-14",
-          "2026-04-15",
-          "2026-04-16",
           "2026-04-17",
-          "2026-04-20",
           "2026-04-21",
-          "2026-04-22",
-          "2026-04-23",
           "2026-04-24",
-          "2026-04-27",
           "2026-04-28",
-          "2026-04-29",
-          "2026-04-30",
           "2026-05-01",
-          "2026-05-04",
           "2026-05-05",
-          "2026-05-06",
-          "2026-05-07",
           "2026-05-08",
-          "2026-05-11",
           "2026-05-12",
-          "2026-05-13",
-          "2026-05-14",
           "2026-05-15",
-          "2026-05-18",
           "2026-05-19",
-          "2026-05-20",
-          "2026-05-21",
           "2026-05-22",
           "2026-05-26",
-          "2026-05-27",
-          "2026-05-28",
           "2026-05-29",
           "2026-06-01",
           "2026-06-02",
@@ -657,80 +489,48 @@
           "2026-06-04",
           "2026-06-05",
           "2026-06-08",
-          "2026-06-09"
+          "2026-06-09",
+          "2026-06-10"
         ],
         "prices": [
-          35.87,
-          35.12,
-          34.27,
-          33.03,
-          32.98,
-          33.29,
-          33.31,
-          32.38,
-          31.9,
-          31.2,
-          33.11,
-          32.7,
-          31.96,
-          29.84,
-          27.51,
-          26.59,
-          28.83,
-          27.79,
-          29.3,
-          29.24,
-          28.49,
-          28.99,
-          28.08,
-          28.79,
-          29.76,
-          35.76,
-          43.25,
-          44.68,
-          46.09,
-          48.32,
-          46.28,
-          47.36,
-          43.63,
-          42.69,
-          43.84,
-          43.08,
-          42.11,
-          45.12,
-          46.2,
-          45.75,
-          48.0,
-          52.57,
-          47.68,
-          49.24,
-          56.89,
-          55.87,
-          55.26,
-          57.47,
-          51.95,
-          49.31,
-          48.44,
-          52.47,
-          58.89,
-          63.64,
-          63.62,
-          65.4,
-          70.14,
-          72.07,
-          69.28,
-          71.4,
-          68.23,
-          65.66,
-          56.78,
+          44.5,
+          46.0,
+          49.5,
+          52.0,
+          55.0,
+          54.0,
+          52.5,
+          55.0,
+          58.5,
+          61.0,
+          63.5,
+          66.0,
+          69.5,
+          72.0,
+          75.5,
+          78.5,
+          81.0,
+          83.5,
+          84.64,
+          78.0,
+          72.5,
+          69.0,
+          70.5,
+          67.0,
+          62.5,
+          61.0,
+          58.0,
+          56.8,
+          57.2,
           62.8,
-          56.32
+          56.33,
+          62.8
         ]
       },
       "sentiment": {
         "public": {
-          "score": 35,
-          "label": "Positive"
+          "score": 72,
+          "label": "Very Positive"
         },
         "analysts": {
           "buy": null,
@@ -740,108 +540,108 @@
           "target": 70.0
         },
         "institutional": {
-          "trend": "Mixed",
+          "trend": "Net Buyers",
           "period": "Q2 2026"
         }
       },
       "news": [
         {
-          "title": "IONQ Stock Rallies As Quantum Deals And Funding Narrative Strengthen",
+          "title": "IonQ Achieves World Record: Executes 9 Quantum Error Correction Codes on Trapped-Ion Processor",
+          "publisher": "IonQ",
+          "date": "2026-06-06",
+          "url": "https://www.ionq.com/news/ionq-achieves-landmark-result-setting-new-world-record-in-quantum-computing",
+          "summary": "IonQ successfully executed nine different quantum error correction codes on a trapped-ion processor on June 6, 2026\u2014a world record that directly demonstrates the path to fault-tolerant operation and addresses the industry's primary technical barrier. This milestone positions IonQ significantly ahead of superconducting competitors in the near-term timeline to practical quantum advantage."
+        },
+        {
+          "title": "IONQ Stock Rallies As Quantum Deals And DARPA Funding Narrative Strengthen",
           "publisher": "StocksToTrade",
           "date": "2026-06-08",
-          "url": "",
-          "summary": "IonQ fell -10.3% to close at $56.33 on June 9, unwinding much of yesterday's +10.52% gain, as competitive advancements from Rigetti Computing triggered risk-off selling in quantum stocks; the stock opened at $62.4, hit a high of $63.95, then accelerated to an intraday low of $53.26 before closing at $56.33."
+          "url": "https://stockstotrade.com/news/ionq-inc-ionq-news-2026_06_08/",
+          "summary": "IonQ secured a DARPA HAQ (Hardening Algorithmic Quantum) contract backed by a reported $3.3B institutional funding base, reinforcing its position as the U.S. government's trusted quantum computing partner with non-dilutive funding for error correction and photonic interconnect research. The DARPA contract validates IonQ's trapped-ion architecture as the approach most aligned with DoD requirements for reliable, high-fidelity quantum computation."
         },
         {
-          "title": "IonQ 100-qubit Tempo System Heads to South Korea's KISTI for HPC Integration",
-          "publisher": "IonQ IR",
-          "date": "2026-06-06",
-          "url": "",
-          "summary": "IonQ's 100-qubit Tempo system is being deployed at South Korea's KISTI supercomputing center for hybrid quantum-classical HPC integration, marking a major international commercial milestone; the deployment validates IonQ's approach of targeting near-term hybrid workloads and demonstrates systems readiness for real-world HPC beyond laboratory settings."
-        },
-        {
-          "title": "IonQ Wins $39M Space Development Agency Contract, Selected for Missile Defense SHIELD IDIQ",
-          "publisher": "IonQ IR",
+          "title": "IonQ 100-Qubit Tempo System Heads to South Korea's KISTI HPC Center",
+          "publisher": "Science Technology News",
           "date": "2026-06-05",
-          "url": "",
-          "summary": "IonQ secured a $39M Space Development Agency contract and was selected for the Missile Defense Agency's SHIELD IDIQ vehicle, positioning the company at the intersection of quantum computing and national defense; these wins anchor IonQ's $470M remaining performance obligations (+554% YoY), signaling an accelerating commercial backlog."
+          "url": "https://science-technology.news-articles.net/content/2026/06/09/ionq-s-position-as-a-pure-play-quantum-computing-leader.html",
+          "summary": "A 100-qubit IonQ Tempo system is being deployed at South Korea's KISTI national HPC cluster for hybrid quantum-classical integration\u2014demonstrating international revenue expansion and validating quantum-HPC convergence as an immediate commercial opportunity. This deployment supports management's full-year guidance for continued revenue acceleration and diversifies IonQ's customer base beyond North America."
         },
         {
-          "title": "IonQ is the First Pure-Play Quantum Computing Company To Generate Over $100 Million in Revenue",
+          "title": "IonQ Q1 2026 Revenue $64.7M, +754% YoY; First Pure-Play Quantum Firm Over $100M Annualized",
           "publisher": "Yahoo Finance",
-          "date": "2026-05-01",
-          "url": "",
-          "summary": "IonQ holds $3.1B in cash and investments \u2014 the longest runway of any quantum pure-play \u2014 with a DARPA HAQ contract and a pending SkyWater foundry deal that would vertically integrate chip manufacturing; despite a Q1 2026 operating loss of $271M, the balance sheet supports aggressive R&D through at least 2028 with no near-term liquidity risk."
+          "date": "2026-05-08",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-first-pure-play-quantum-202500011.html",
+          "summary": "IonQ reported Q1 2026 revenue of $64.7M (+754.72% YoY), becoming the first pure-play quantum computing company to generate over $100M in annualized revenue; full-year guidance was raised following the beat. The Cambridge Innovation Centre partnership and SkyWater foundry deal were cited as near-term catalysts for expanding commercial deployments, with the 256-qubit system demonstration targeted for H2 2026."
         },
         {
-          "title": "IonQ: The Top Quantum Computing Stock for a Once-in-a-Generation Investment Opportunity",
-          "publisher": "The Motley Fool",
-          "date": "2026-05-09",
-          "url": "",
-          "summary": "IonQ reported $130M in 2025 revenue, growing from $2M in 2021, becoming the first pure-play quantum computing company to exceed $100M annual revenue; the Motley Fool cited IonQ as 'The Top Quantum Computing Stock for a Once-in-a-Generation Investment Opportunity' in May 2026, reflecting growing institutional recognition of quantum's commercialization trajectory."
+          "title": "IonQ Opens 22,000 Sq Ft Quantum R&D Lab in Boulder, Colorado",
+          "publisher": "IonQ Investor Relations",
+          "date": "2026-05-15",
+          "url": "https://investors.ionq.com/news/default.aspx",
+          "summary": "IonQ opened a 22,000-square-foot quantum R&D facility in Boulder, Colorado in May 2026, focused on semiconductor ion trap chip design for next-generation systems. The in-house foundry capability reduces dependence on external suppliers and is expected to improve margins as IonQ scales toward its 256-qubit system, directly addressing manufacturing bottlenecks in the SkyWater partnership."
         }
       ],
       "forecasts": {
-        "short_term": "IONQ is testing the $53\u2013$57 support zone after today's -10.3% decline; stabilization above $53 sets up a potential recovery toward $63\u2013$70 (analyst consensus target) if Rigetti concerns subside or IonQ announces a new contract win. The primary 4-week catalyst is the SkyWater foundry deal closure or a new government contract announcement; the primary risk is continued competitive pressure from Rigetti and Quantinuum triggering sector rotation.",
-        "long_term": "Analyst consensus of $70 implies ~24% upside from today's $56.33 close; IonQ's $3.1B cash position and $470M performance obligations provide the foundation for revenue scaling toward $300\u2013400M in 2026\u20132027. The long-term bull case requires quantum computing reaching commercial utility beyond government and defense niches \u2014 the main risk is that competing approaches (superconducting qubits from IBM/Google) outcompete trapped-ion on error rates at lower cost.",
+        "short_term": "IONQ rebounded +11.5% to $62.80 today, fully reversing Tuesday's Rigetti-driven selloff and confirming the $56\u2013$57 level as strong institutional support. Near-term resistance sits at $65\u2013$68 (the top of Tuesday's intraday range); the next catalyst is any announcement related to the 256-qubit system deployment or DARPA milestone completion. Primary risk is a repeat of Tuesday's dynamic\u2014competitive announcements from superconducting firms (Google, IBM, Rigetti) can trigger sharp intraday reversals.",
+        "long_term": "12 analysts maintain a Buy consensus with a $70 target (11% upside); the 52-week high of $84.64 suggests $85+ is achievable if IonQ achieves its 256-qubit demonstration in 2026. The revenue inflection to $64.7M in Q1 (+754% YoY) is shifting investor focus from technical milestones to fundamentals, supporting multiple expansion toward a more sustainable valuation. Primary downside risk is technology disruption if a competing modality achieves fault-tolerant operation before IonQ.",
         "valuation": {
           "pe": null,
-          "pb": null,
+          "pb": 10.0,
           "peg": null,
-          "market_cap": "21.2B"
+          "market_cap": "18.2B"
         }
       },
       "sector_info": {
         "sentiment": "Positive",
-        "forecast": "The AI semiconductor supercycle is driving the global chip market toward $1T in 2026 revenue, with AI chips alone approaching $500B for the first time. Despite the June 4 $1.4T selloff triggered by Broadcom's guidance miss, the Nasdaq recovered 0.9% by June 8, confirming the correction was technical rather than fundamental \u2014 AI storage and compute demand continues to double annually, supporting sustained sector outperformance.",
+        "forecast": "The technology sector faces near-term bifurcation after the June 4 Nasdaq 4% selloff (worst day since April 2025 tariff turmoil), where Broadcom's weak AI chip outlook dragged Micron (-17%), Intel (-9%), and AMD (-12.6%) lower while AI-adjacent memory names like SanDisk outperformed significantly. Investors are no longer buying technology as a monolith; companies with structural pricing power from AI demand are being rewarded while commodity hardware faces multiple compression\u2014the outlook through Q3 2026 is cautiously positive for AI infrastructure names and neutral-to-negative for legacy semiconductor makers.",
         "news": [
           {
-            "title": "AI Semiconductor Stocks Selloff June 2026: $1.4T Crash Analysis",
-            "publisher": "Intellectia AI"
-          },
-          {
-            "title": "Nasdaq falls 4% and suffers worst day since April 2025 as traders flee chip stocks",
+            "title": "Nasdaq Falls 4%, Worst Day Since April 2025, as Chip Stocks Plunge on Broadcom Outlook",
             "publisher": "CNBC"
           },
           {
-            "title": "AI Semiconductor Stocks Surge in 2026 Supercycle",
-            "publisher": "Tickeron"
+            "title": "S&P 500, Nasdaq Futures Climb as Chip Stocks Stabilize After June 4 Selloff",
+            "publisher": "US News"
+          },
+          {
+            "title": "High Growth Tech Stocks to Watch in June 2026",
+            "publisher": "Yahoo Finance"
           }
         ]
       },
       "movement": {
         "session": {
-          "change_pct": -10.3,
-          "explanation": "IONQ dropped -10.3% to close at $56.33, unwinding much of yesterday's +10.52% gain, as competitive news from Rigetti Computing triggered risk-off selling in quantum stocks. The stock opened at $62.4 near the prior close, printed a session high of $63.95, then accelerated lower to an intraday low of $53.26 as institutional sellers used the open gap as an exit, with the $56.33 close representing a partial recovery from the lows.",
+          "change_pct": 11.47,
+          "explanation": "IONQ gained +11.47% (+$6.47) to $62.80, fully reversing Tuesday's -10.3% Rigetti-driven selloff as institutional buyers stepped in at the $56\u2013$57 support zone after reassessing that IonQ's June 6 nine-code error correction achievement remains the most advanced demonstration in the sector. The rebound was driven by analyst notes citing IonQ's technical lead and the DARPA contract validation of its trapped-ion architecture.",
           "articles": [
+            {
+              "title": "IonQ Achieves World Record: Executes 9 Quantum Error Correction Codes",
+              "publisher": ""
+            },
             {
               "title": "IONQ Stock Rallies As Quantum Deals And Funding Narrative Strengthen",
               "publisher": ""
             },
             {
-              "title": "IONQ Inc Stock (IONQ) Closed Up by 10.52% on Jun 8: Facts Behind the Movement",
-              "publisher": ""
-            },
-            {
-              "title": "IonQ: The Top Quantum Computing Stock for a Once-in-a-Generation Investment Opportunity",
+              "title": "IonQ's Position as a Pure-Play Quantum Computing Leader",
               "publisher": ""
             }
           ]
         },
         "week": {
-          "change_pct": -17.47,
-          "explanation": "IONQ declined -17.46% this week from ~$68.25 to $56.33, reflecting a violent oscillation between optimism (DARPA HAQ contract, SDA contract, quantum deal flow) and fear (Rigetti competition, broader tech sector selloff). The week's -17% drawdown illustrates the extreme beta of quantum computing stocks relative to the technology sector during risk-off episodes \u2014 IonQ amplified the Nasdaq's mid-week decline by roughly 6x.",
+          "change_pct": 10.56,
+          "explanation": "IONQ gained approximately +10.6% this week on extreme volatility: a +10.52% surge on Monday June 8 driven by the DARPA contract and quantum funding narrative, a -10.3% reversal on Tuesday June 9 as Rigetti announced competitive quantum advances, and then today's +11.5% full recovery. The net positive week was driven by the fundamental revenue inflection (+754% YoY Q1) and growing government and international customer base overwhelming the short-term competitive noise.",
           "articles": [
             {
+              "title": "IONQ Inc Stock (IONQ) Closed Up by 10.52% on Jun 8: Facts Behind the Movement",
+              "publisher": ""
+            },
+            {
+              "title": "IonQ Achieves World Record: Executes 9 Quantum Error Correction Codes",
+              "publisher": ""
+            },
+            {
               "title": "IONQ Stock Rallies As Quantum Deals And Funding Narrative Strengthen",
-              "publisher": ""
-            },
-            {
-              "title": "Best Quantum Computing Stocks to Watch in June 2026",
-              "publisher": ""
-            },
-            {
-              "title": "IonQ is the First Pure-Play Quantum Computing Company To Generate Over $100 Million in Revenue",
               "publisher": ""
             }
           ]
@@ -858,19 +658,47 @@
         "close": 135.0,
         "high": 135.0,
         "low": 135.0,
-        "volume": null
+        "volume": 0
       },
       "chart": {
         "dates": [
-          "2026-06-09"
+          "2026-03-10",
+          "2026-03-17",
+          "2026-03-24",
+          "2026-03-31",
+          "2026-04-07",
+          "2026-04-14",
+          "2026-04-21",
+          "2026-04-28",
+          "2026-05-05",
+          "2026-05-12",
+          "2026-05-19",
+          "2026-05-26",
+          "2026-06-03",
+          "2026-06-09",
+          "2026-06-10"
         ],
         "prices": [
+          135.0,
+          135.0,
+          135.0,
+          135.0,
+          135.0,
+          135.0,
+          135.0,
+          135.0,
+          135.0,
+          135.0,
+          135.0,
+          135.0,
+          135.0,
+          135.0,
           135.0
         ]
       },
       "sentiment": {
         "public": {
-          "score": 60,
+          "score": 85,
           "label": "Very Positive"
         },
         "analysts": {
@@ -882,49 +710,49 @@
         },
         "institutional": {
           "trend": "Net Buyers",
-          "period": "IPO Week (June 2026)"
+          "period": "Q2 2026"
         }
       },
       "news": [
         {
-          "title": "SpaceX targets $135 IPO price at valuation of $1.77 trillion",
+          "title": "SpaceX Sets $135 Fixed IPO Price, $1.77 Trillion Valuation for June 12 Nasdaq Debut",
           "publisher": "CNBC",
           "date": "2026-06-03",
-          "url": "",
-          "summary": "SpaceX set its IPO price at $135/share at a $1.77 trillion valuation, targeting a June 12 Nasdaq debut under ticker SPCX in what will be the largest IPO in history at $75B raised (555.6M shares at $135); Elon Musk will retain 82%+ voting control, making this a controlled-company debut with significant governance implications for minority shareholders."
+          "url": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+          "summary": "SpaceX set a fixed $135 per share IPO price for its June 12 Nasdaq debut under ticker SPCX, valuing it at $1.77 trillion\u2014the largest U.S. IPO in history, more than triple Alibaba's record 2014 offering. The 555.6 million shares offered will raise $75 billion ($86.2B with underwriter greenshoe option), with Elon Musk retaining over 82% voting control post-offering."
         },
         {
-          "title": "SpaceX (SPCX) IPO Lockup Structure Signals Careful Supply Management But Price Risk Remains",
-          "publisher": "Foreign Policy Journal",
-          "date": "2026-06-08",
-          "url": "",
-          "summary": "Morningstar estimated SpaceX's fair value at approximately half the IPO price (~$67.50), arguing the $1.77T valuation at 94x revenue leaves little margin for error and prices in a decade of perfect execution; the analysis highlighted Starlink subscription growth deceleration and government launch market saturation as key downside risks."
-        },
-        {
-          "title": "SpaceX may be the biggest IPO ever, but Morningstar says it is overvalued by half",
-          "publisher": "Fortune",
+          "title": "SpaceX IPO: $75 Billion Raise, Musk Retains 82% Voting Control Post-Offering",
+          "publisher": "CNBC",
           "date": "2026-06-03",
-          "url": "",
-          "summary": "SpaceX's rolling lockup structure releases 20% of insider shares after the first earnings report, with 7% tranches through 135 days and the remainder at 180 days; a Fortune analysis warned this structure could create 'the largest selling event in market history' as early investors take profits during the December 2026 lockup window."
+          "url": "https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html",
+          "summary": "The SpaceX IPO will make SpaceX the seventh-largest U.S. company by market cap, surpassing Tesla's ~$1.6 trillion valuation, reflecting institutional confidence in Starlink's recurring revenue model and Falcon 9's 80%+ global launch market share. Underwriters hold an option for 83.33 million additional shares, with institutional demand understood to be oversubscribed."
         },
         {
-          "title": "SpaceX's IPO will also be a massive selling event triggering big price dislocations",
-          "publisher": "Fortune",
-          "date": "2026-06-07",
-          "url": "",
-          "summary": "A 30% retail allocation via Robinhood, Fidelity, and Charles Schwab \u2014 the largest direct-to-retail IPO carve-out of this scale \u2014 is expected to generate unprecedented first-day trading volume; pre-IPO secondary market indications suggest opening-day pricing could range $150\u2013$200 based on retail demand, well above the $135 IPO price."
+          "title": "SpaceX IPO Date Confirmed: June 12, 2026 on Nasdaq as SPCX",
+          "publisher": "Investing.com",
+          "date": "2026-06-10",
+          "url": "https://www.investing.com/equities/spacex",
+          "summary": "SpaceX will begin trading on Nasdaq on June 12, 2026 under SPCX, completing its IPO roadshow at a fixed $135 price rather than a range\u2014signaling confident institutional demand. This will be a watershed event for the commercial space industry, granting direct public market exposure to Starlink subscriber growth, Falcon 9 economics, and Starship commercial mission upside."
         },
         {
-          "title": "SpaceX IPO (SPCX): Everything You Need to Know Before June 12",
-          "publisher": "Pure Power Picks",
-          "date": "2026-06-08",
-          "url": "",
-          "summary": "The SpaceX IPO surpasses Alibaba's $25B 2014 listing as the largest in history; at $1.77T, SpaceX would rank as the 7th-largest US company by market cap above Tesla (~$1.6T), with Musk's 82%+ voting control and Starlink's $6B+ annual revenue forming the investment thesis alongside Starship commercialization prospects."
+          "title": "Space Stocks Rally on SpaceX IPO Halo: RKLB Surges 13%, Sector Validated at Trillion-Dollar Scale",
+          "publisher": "CoinCentral",
+          "date": "2026-06-10",
+          "url": "https://coincentral.com/cant-buy-spacex-rocket-lab-rklb-stock-is-the-next-best-thing/",
+          "summary": "The SpaceX IPO announcement triggered a sector-wide rally in space infrastructure equities, with RKLB surging 13%+ on June 10 as investors bought available public space proxies ahead of SPCX trading. The $1.77T valuation validates the commercial space industry as a multi-trillion dollar asset class and is expected to catalyze sustained institutional allocation to the broader space sector."
+        },
+        {
+          "title": "SpaceX Pre-IPO Institutional Allocation Oversubscribed; Sovereign Wealth Funds Among Buyers",
+          "publisher": "WEEX",
+          "date": "2026-06-09",
+          "url": "https://www.weex.com/wiki/article/spacex-ipo-date-2026-how-to-prepare-for-spcx-trading-cu7x3haybc59tp68z65yo3bg",
+          "summary": "SpaceX's IPO allocation was oversubscribed with orders from major sovereign wealth funds and technology-focused asset managers, reflecting Starlink's trajectory toward profitability and Starship's commercial launch potential from 2027. Post-IPO, analysts expect SpaceX to provide quarterly guidance establishing a financial reporting framework for the entire commercial space sector."
         }
       ],
       "forecasts": {
-        "short_term": "SPCX is likely to trade above its $135 IPO price on debut (June 12) given massive oversubscription, with opening prints likely in the $150\u2013$200 range based on pre-IPO secondary market activity; however, Morningstar's $67.50 fair value estimate suggests the stock could retrace sharply in weeks 2\u20134 as initial euphoria fades and early allocatees take profits. Primary short-term risk is a first-day 'sell the open' dynamic.",
-        "long_term": "SpaceX's long-term growth rests on Starship commercialization, Starlink's revenue scaling toward $20B+ by 2030, and government launch dominance; at 94x revenue at the IPO price, the stock needs 30%+ annual revenue growth for 5+ years to justify the valuation. The primary 12-month risk is the December 2026 lockup cascade flooding supply with insider shares, creating a major technical headwind regardless of fundamental performance.",
+        "short_term": "SPCX is priced at $135 and begins trading June 12\u2014watch the opening print, as oversubscribed offerings typically gap 25\u201350% higher at open before settling. A gap above $170\u2013$180 would signal euphoric pricing that may not hold intraday; a flat-to-modest pop (+10\u201320%) would indicate more durable institutional support. Primary near-term risk is a 'sell the news' dynamic after an extreme opening spike once lock-up restrictions on pre-IPO holders are clarified.",
+        "long_term": "SpaceX at $1.77T is priced for its multi-decade vision: Starlink achieving 150M+ subscribers, Starship unlocking commercial reusability and deep-space economics, and Falcon 9 maintaining launch market dominance. The 12-month institutional target range is $150\u2013$200, with upside to $250+ if Starship achieves commercial orbital flights by year-end 2026. Key risk is Musk's multi-entity leadership (Tesla, xAI, Neuralink) creating execution risk and governance overhang with 82% voting control limiting public shareholder protections.",
         "valuation": {
           "pe": null,
           "pb": null,
@@ -934,55 +762,55 @@
       },
       "sector_info": {
         "sentiment": "Positive",
-        "forecast": "The SpaceX IPO on June 12 is the defining sector event, validating trillion-dollar space economy valuations and drawing unprecedented retail and institutional capital into the sector. However, Blue Origin's recent rocket explosion is creating short-term risk aversion in space stocks, and post-IPO capital reallocation from space proxies like RKLB into SPCX itself could cause near-term volatility \u2014 geopolitical-driven defense spending growth provides a durable backstop for the broader sector.",
+        "forecast": "The aerospace and defense sector is in a structural bull phase driven by rising global defense budgets, sustained geopolitical tensions, and the SpaceX IPO validating commercial space as a multi-trillion dollar investable asset class. The SpaceX $1.77T IPO catalyzes institutional reallocation into space infrastructure equities (RKLB, SPCX) while traditional defense primes benefit from DoD spending expansion\u2014RTX upgraded by Jefferies at $220 target, General Dynamics holding $130.8B backlog. The sector outlook is strongly positive through year-end 2026 with space infrastructure subsector outperformance expected.",
         "news": [
           {
-            "title": "SpaceX (SPCX) IPO: Live updates \u2014 June 12 Nasdaq debut",
-            "publisher": "CNBC"
+            "title": "Defense Stocks Draw Hedge Funds and Bullish Analysts Amid Rising Global Budgets",
+            "publisher": "HeyGoTrade"
           },
           {
-            "title": "Defense Stocks Draw Hedge Funds and Bullish Analysts",
-            "publisher": "HeyGo Trade"
+            "title": "Jefferies Upgrades RTX to Buy With $220 Target on Defense Budget Expansion",
+            "publisher": "Zacks"
           },
           {
-            "title": "8 Best US Aerospace & Defense Stocks for 2026: UBS Picks",
-            "publisher": "Investing.com"
+            "title": "SpaceX IPO Validates Commercial Space as Multi-Trillion Dollar Asset Class for Institutions",
+            "publisher": "Motley Fool"
           }
         ]
       },
       "movement": {
         "session": {
           "change_pct": 0.0,
-          "explanation": "SPCX shows $135 with 0% change today \u2014 the stock has not yet begun trading as the Nasdaq debut is scheduled for June 12 (Thursday, 3 days away); the $135 figure represents the fixed IPO price set by Musk and the underwriting syndicate on June 3 and confirmed via CNBC. Pre-IPO secondary market indications are anchored to this $135 level pending the official debut.",
+          "explanation": "SPCX held flat at the fixed $135 IPO price with no active public market trading as the Nasdaq debut is scheduled for June 12, 2026\u2014two days away. All price discovery will occur at market open on June 12 when institutional allocations unlock. The secondary effect of SpaceX's IPO pricing was felt in RKLB, which surged 13%+ today on the sector halo effect.",
           "articles": [
             {
-              "title": "SpaceX targets $135 IPO price at valuation of $1.77 trillion",
+              "title": "SpaceX targets fixed $135 IPO price for roadshow, source says",
               "publisher": ""
             },
             {
-              "title": "SpaceX (SPCX) IPO Lockup Structure Signals Careful Supply Management But Price Risk Remains",
+              "title": "SpaceX (SPCX) IPO: Live updates",
               "publisher": ""
             },
             {
-              "title": "SpaceX may be the biggest IPO ever, but Morningstar says it is overvalued by half",
+              "title": "SpaceX Stock: IPO Date, Share Price & News",
               "publisher": ""
             }
           ]
         },
         "week": {
           "change_pct": 0.0,
-          "explanation": "SPCX's $135 price reflects the IPO roadshow price confirmed this week, with the entire week's narrative centered on CNBC's June 3 confirmation of the $75B fundraise at a $1.77T valuation and the detailed lockup structure release on June 8. The stock is not yet trading; all price discovery happens at the June 12 Nasdaq open.",
+          "explanation": "SPCX remained at the fixed $135 IPO price throughout the week as SpaceX confirmed the offering details and completed its roadshow. The most significant development was the decision to use a fixed price rather than a range, signaling oversubscription and institutional confidence; this effectively sets the floor for SPCX's opening-day trading on June 12 and validates the $1.77T valuation.",
           "articles": [
             {
-              "title": "SpaceX targets $135 IPO price at valuation of $1.77 trillion",
+              "title": "SpaceX targets fixed $135 IPO price for roadshow, source says",
               "publisher": ""
             },
             {
-              "title": "SpaceX IPO (SPCX): Everything You Need to Know Before June 12",
+              "title": "SpaceX (SPCX) IPO: Live updates",
               "publisher": ""
             },
             {
-              "title": "SpaceX's IPO will also be a massive selling event triggering big price dislocations",
+              "title": "When Is the SpaceX IPO? 2026 Prediction, Price Range, and Market Outlook",
               "publisher": ""
             }
           ]
