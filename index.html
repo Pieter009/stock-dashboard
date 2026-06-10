@@ -131,6 +131,54 @@
     .tab-btn:hover { color: var(--text); }
     .tab-btn.active { color: var(--text); border-bottom-color: var(--text); }
 
+    /* ── Main Tab Bar (Open Positions / Watchlist) ── */
+    .main-tab-bar {
+      display: flex;
+      gap: 2px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0;
+      background: var(--bg);
+    }
+    .main-tab-btn {
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      padding: 12px 22px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: color 0.1s, border-color 0.1s;
+    }
+    .main-tab-btn:hover { color: var(--text); }
+    .main-tab-btn.active { color: var(--text); border-bottom-color: var(--text); }
+    .tab-pane { display: none; }
+    .tab-pane.active { display: block; }
+
+    /* ── Portfolio Overview (pie charts) ── */
+    .portfolio-overview {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .portfolio-chart-block { flex: 1; min-width: 180px; }
+    .portfolio-chart-title {
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    .portfolio-chart-wrap { position: relative; height: 180px; }
+    @media (max-width: 580px) { .portfolio-overview { flex-direction: column; } }
+
     /* ── Stock Section ── */
     .stock-section { margin-bottom: 56px; scroll-margin-top: 56px; }
     .stock-section-header {
@@ -317,6 +365,11 @@ function toggleDark() {
 
 function _updateChartTheme(chart) {
   const dark = document.body.classList.contains('dark');
+  if (chart.config.type === 'doughnut' || chart.config.type === 'pie') {
+    chart.options.plugins.legend.labels.color = dark ? '#888888' : '#737373';
+    chart.update('none');
+    return;
+  }
   const line = dark ? '#d4d4d4' : '#1a1a1a';
   const fill = dark ? 'rgba(212,212,212,0.07)' : 'rgba(26,26,26,0.05)';
   const grid = dark ? '#2a2a2a' : '#f0f0f0';
@@ -357,10 +410,20 @@ function esc(s) {
 }
 
 // ── Scroll helpers ──────────────────────────────────────────────
+function _activatePaneFor(elementId) {
+  const el = document.getElementById(elementId);
+  if (!el) return;
+  const pane = el.closest('.tab-pane');
+  if (pane && !pane.classList.contains('active')) {
+    switchMainTab(pane.id.replace('pane-', ''));
+  }
+}
 function scrollToMovement(ticker) {
+  _activatePaneFor('movement-' + ticker);
   document.getElementById('movement-' + ticker)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 function scrollToStock(ticker) {
+  _activatePaneFor('stock-' + ticker);
   document.getElementById('stock-' + ticker)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
@@ -391,20 +454,38 @@ function buildSummary(data) {
 }
 
 // ── Tab Bar ─────────────────────────────────────────────────────
-function buildTabs(tickers) {
+function buildTabs(tickers, paneId) {
   const btns = tickers.map((t, i) =>
     `<button class="tab-btn${i === 0 ? ' active' : ''}" id="tab-${t}" onclick="scrollToStock('${esc(t)}')">${esc(t)}</button>`
   ).join('');
-  return `<div class="tab-bar" id="tabBar">${btns}</div>`;
+  return `<div class="tab-bar" id="tabBar-${paneId}">${btns}</div>`;
 }
 
-function setupScrollSpy(tickers) {
+// ── Main Tab Switcher ───────────────────────────────────────────
+function switchMainTab(name) {
+  document.querySelectorAll('.main-tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('main-tab-' + name)?.classList.add('active');
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  const pane = document.getElementById('pane-' + name);
+  if (pane) {
+    pane.classList.add('active');
+    const tickers = Array.from(pane.querySelectorAll('.stock-section')).map(el => el.id.replace('stock-', ''));
+    setupScrollSpy(tickers, pane);
+  }
+}
+
+let _scrollSpyObs = null;
+function setupScrollSpy(tickers, scopeEl) {
+  if (_scrollSpyObs) { _scrollSpyObs.disconnect(); _scrollSpyObs = null; }
   const obs = new IntersectionObserver(entries => {
     entries.forEach(e => {
       if (e.isIntersecting) {
         const t = e.target.id.replace('stock-', '');
-        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-        document.getElementById('tab-' + t)?.classList.add('active');
+        const pane = e.target.closest('.tab-pane');
+        if (pane) {
+          pane.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+          pane.querySelector('#tab-' + t)?.classList.add('active');
+        }
       }
     });
   }, { threshold: 0.05, rootMargin: '-60px 0px -70% 0px' });
@@ -412,6 +493,7 @@ function setupScrollSpy(tickers) {
     const el = document.getElementById('stock-' + t);
     if (el) obs.observe(el);
   });
+  _scrollSpyObs = obs;
 }
 
 // ── Per-Stock Section ───────────────────────────────────────────
@@ -649,6 +731,96 @@ function setTF(ticker, n) {
   document.getElementById(`tf-${ticker}-${n}`)?.classList.add('active');
 }
 
+// ── Portfolio Overview Charts ───────────────────────────────────
+const _PIE_PALETTE = ['#6366f1','#f59e0b','#10b981','#ef4444','#3b82f6','#ec4899'];
+
+function buildPortfolioCharts(ownedTickers, stocks) {
+  const positions = ownedTickers
+    .filter(t => stocks[t].position?.qty != null)
+    .map(t => ({
+      ticker: t,
+      sector: stocks[t].sector || 'Unknown',
+      value: Math.round(stocks[t].position.qty * (stocks[t].quote?.close || 0) * 100) / 100,
+    }))
+    .filter(p => p.value > 0);
+  if (!positions.length) return '';
+  return `<div class="portfolio-overview">
+    <div class="portfolio-chart-block">
+      <div class="portfolio-chart-title">Portfolio Allocation</div>
+      <div class="portfolio-chart-wrap"><canvas id="pie-stock"></canvas></div>
+    </div>
+    <div class="portfolio-chart-block">
+      <div class="portfolio-chart-title">Sector Allocation</div>
+      <div class="portfolio-chart-wrap"><canvas id="pie-sector"></canvas></div>
+    </div>
+  </div>`;
+}
+
+function initPortfolioCharts(ownedTickers, stocks) {
+  const positions = ownedTickers
+    .filter(t => stocks[t].position?.qty != null)
+    .map(t => ({
+      ticker: t,
+      sector: stocks[t].sector || 'Unknown',
+      value: Math.round(stocks[t].position.qty * (stocks[t].quote?.close || 0) * 100) / 100,
+    }))
+    .filter(p => p.value > 0);
+  if (!positions.length) return;
+
+  const total = positions.reduce((s, p) => s + p.value, 0);
+  const dark = document.body.classList.contains('dark');
+  const legendColor = dark ? '#888888' : '#737373';
+
+  function makeChart(canvasId, labels, values) {
+    const canvas = document.getElementById(canvasId);
+    if (!canvas) return null;
+    return new Chart(canvas, {
+      type: 'doughnut',
+      data: {
+        labels,
+        datasets: [{
+          data: values,
+          backgroundColor: _PIE_PALETTE.slice(0, labels.length),
+          borderColor: dark ? '#1c1c1c' : '#f7f7f7',
+          borderWidth: 2,
+          hoverOffset: 6,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '62%',
+        plugins: {
+          legend: {
+            position: 'right',
+            labels: { color: legendColor, boxWidth: 12, padding: 14, font: { size: 12 } }
+          },
+          tooltip: {
+            callbacks: {
+              label: ctx => {
+                const pct = ((ctx.parsed / total) * 100).toFixed(1);
+                return ` $${ctx.parsed.toLocaleString('en-US', {minimumFractionDigits:2,maximumFractionDigits:2})} (${pct}%)`;
+              }
+            }
+          }
+        }
+      }
+    });
+  }
+
+  // By stock
+  const stockChart = makeChart('pie-stock', positions.map(p => p.ticker), positions.map(p => p.value));
+  if (stockChart) _charts['__pie_stock'] = { chart: stockChart };
+
+  // By sector — aggregate
+  const sectorMap = {};
+  positions.forEach(p => { sectorMap[p.sector] = (sectorMap[p.sector] || 0) + p.value; });
+  const sectorLabels = Object.keys(sectorMap);
+  const sectorValues = sectorLabels.map(s => Math.round(sectorMap[s] * 100) / 100);
+  const sectorChart = makeChart('pie-sector', sectorLabels, sectorValues);
+  if (sectorChart) _charts['__pie_sector'] = { chart: sectorChart };
+}
+
 // ── Bootstrap ───────────────────────────────────────────────────
 async function init() {
   const app = document.getElementById('app');
@@ -660,14 +832,45 @@ async function init() {
     const tickers = Object.keys(data.stocks || {});
     if (!tickers.length) throw new Error('No stock data found in data.json');
 
-    let html = buildSummary(data) + buildTabs(tickers);
-    tickers.forEach(t => { html += buildStock(t, data.stocks[t]); });
+    const owned     = tickers.filter(t => data.stocks[t].type === 'owned');
+    const watchlist = tickers.filter(t => data.stocks[t].type !== 'owned');
+
+    let html = buildSummary(data);
+
+    // Main tab bar
+    html += `<div class="main-tab-bar">
+      <button class="main-tab-btn active" id="main-tab-owned"     onclick="switchMainTab('owned')">Open Positions (${owned.length})</button>
+      <button class="main-tab-btn"        id="main-tab-watchlist" onclick="switchMainTab('watchlist')">Watchlist (${watchlist.length})</button>
+    </div>`;
+
+    // Owned pane
+    html += `<div class="tab-pane active" id="pane-owned">`;
+    if (owned.length) {
+      html += buildPortfolioCharts(owned, data.stocks);
+      html += buildTabs(owned, 'owned');
+      owned.forEach(t => { html += buildStock(t, data.stocks[t]); });
+    } else {
+      html += `<div class="state-msg">No open positions.</div>`;
+    }
+    html += `</div>`;
+
+    // Watchlist pane
+    html += `<div class="tab-pane" id="pane-watchlist">`;
+    if (watchlist.length) {
+      html += buildTabs(watchlist, 'watchlist');
+      watchlist.forEach(t => { html += buildStock(t, data.stocks[t]); });
+    } else {
+      html += `<div class="state-msg">No watchlist stocks.</div>`;
+    }
+    html += `</div>`;
+
     app.innerHTML = html;
 
     tickers.forEach(t => {
       if (data.stocks[t].chart) initChart(t, data.stocks[t].chart);
     });
-    setupScrollSpy(tickers);
+    initPortfolioCharts(owned, data.stocks);
+    setupScrollSpy(owned, document.getElementById('pane-owned'));
   } catch (e) {
     app.innerHTML = `<div class="state-msg error">
       Could not load portfolio data.<br>
